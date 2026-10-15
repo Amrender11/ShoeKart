@@ -1,0 +1,186 @@
+
+.login-page {
+  min-height: 100vh;
+  padding: 40px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f3f4f6;
+  font-family: Arial, sans-serif;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 430px;
+  padding: 35px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.09);
+}
+
+.login-logo {
+  width: 65px;
+  height: 65px;
+  margin: 0 auto 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #292929;
+  color: white;
+  border-radius: 50%;
+  font-size: 28px;
+}
+
+.login-card h2 {
+  margin: 0;
+  text-align: center;
+  color: #292929;
+  font-size: 27px;
+}
+
+.login-subtitle {
+  margin: 10px 0 28px;
+  text-align: center;
+  color: #777;
+  font-size: 14px;
+}
+
+.login-field {
+  margin-bottom: 20px;
+}
+
+.login-field label {
+  display: block;
+  margin-bottom: 8px;
+  color: #292929;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.login-input-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 13px;
+  border: 1px solid #d5d5d5;
+  border-radius: 8px;
+  background: white;
+  transition: border-color 0.2s;
+}
+
+.login-input-box:focus-within {
+  border-color: #292929;
+}
+
+.login-icon {
+  color: #777;
+  flex-shrink: 0;
+}
+
+.login-input-box input {
+  width: 100%;
+  min-width: 0;
+  height: 47px;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #292929;
+  font-size: 14px;
+}
+
+.password-toggle {
+  border: none;
+  background: transparent;
+  color: #666;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 5px;
+}
+
+.login-error {
+  display: block;
+  margin-top: 6px;
+  color: #d62828;
+  font-size: 12px;
+}
+
+.login-options {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -7px;
+  margin-bottom: 22px;
+}
+
+.login-options a,
+.register-link a {
+  color: #292929;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.login-options a {
+  font-size: 13px;
+}
+
+.login-options a:hover,
+.register-link a:hover {
+  text-decoration: underline;
+}
+
+.login-submit {
+  width: 100%;
+  padding: 13px;
+  border: none;
+  border-radius: 8px;
+  background: #292929;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.login-submit:hover {
+  background: #444;
+}
+
+.login-success {
+  margin: 15px 0 0;
+  color: #237a3b;
+  font-size: 13px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.register-link {
+  margin: 24px 0 15px;
+  text-align: center;
+  color: #666;
+  font-size: 13px;
+}
+
+.login-home {
+  display: block;
+  margin: 0 auto;
+  padding: 7px 12px;
+  border: none;
+  background: transparent;
+  color: #555;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.login-home:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+  .login-card {
+    padding: 26px 20px;
+  }
+
+  .login-card h2 {
+    font-size: 24px;
+  }
+}
